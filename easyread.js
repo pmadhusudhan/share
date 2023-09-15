@@ -17,11 +17,12 @@ aiscript.addEventListener('load', function() {
   document.getElementsByTagName("body")[0].appendChild(d);
 
   document.getElementById("openAI").addEventListener("click", function() {
-    copyToClipboard(article.textContent,"https://bard.google.com");
+    copyToClipboard("Summarize this into key takeaways : " + article.textContent,"https://bard.google.com");
   });
   
 });
 function copyToClipboard(text,url) {
+   
     try{
         var i = document.createElement("input");
         i.setAttribute("id","in");
