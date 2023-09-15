@@ -5,7 +5,7 @@ aiscript.src = 'https://pmadhusudhan.github.io/interview/Readability.js';
 document.head.appendChild(aiscript);
 
 // Add an event listener to the script element to be notified when it has loaded.
-script.addEventListener('load', function() {
+aiscript.addEventListener('load', function() {
   // Alert the user that the readability.js file has loaded.
   var documentClone = document.cloneNode(true); 
   var article = new Readability(documentClone).parse();
