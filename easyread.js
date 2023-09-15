@@ -15,12 +15,13 @@ script.addEventListener('load', function() {
   d.innerHTML += article.content;
   d.setAttribute("style","background:white;padding:20px;font-size:20px;border:2px orange solid;position:fixed;top:0px;right:0px;width:100%;height:800px;overflow:auto;z-index:999999;");
   document.getElementsByTagName("body")[0].appendChild(d);
-});
 
-
-
-document.getElementById("openAI").addEventListener("click", function() {
+  document.getElementById("openAI").addEventListener("click", function() {
+    open("https://bard.google.com");
+  });
   
- // document.querySelector("#aicontainer").innerHTML =  article.content;
-  open("https://bard.google.com");
 });
+
+
+
+
