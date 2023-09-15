@@ -17,9 +17,9 @@ script.addEventListener('load', function() {
   document.getElementsByTagName("body")[0].appendChild(d);
 });
 
-window.setTimeout(function(){},1000);
 
-document.querySelector("#openAI").addEventListener("click", function() {
+
+document.getElementById("openAI").addEventListener("click", function() {
   
  // document.querySelector("#aicontainer").innerHTML =  article.content;
   open("https://bard.google.com");
