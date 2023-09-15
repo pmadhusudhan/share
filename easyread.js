@@ -1,8 +1,8 @@
-const aiscript = document.createElement('script');
+var aiscript = document.createElement('script');
 aiscript.src = 'https://pmadhusudhan.github.io/interview/Readability.js';
 
 // Append the script element to the head of the document.
-document.head.appendChild(script);
+document.head.appendChild(aiscript);
 
 // Add an event listener to the script element to be notified when it has loaded.
 script.addEventListener('load', function() {
