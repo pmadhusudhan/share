@@ -46,7 +46,7 @@ function copyToClipboard(text,url) {
         .catch(err => {
         console.log('Failed to copy text: ', err);  
         });
-    }.catch(err => {
+    }catch(err => {
     });
   }
 
