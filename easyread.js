@@ -3,7 +3,7 @@ s.src = "https://code.jquery.com/jquery-3.7.1.min.js";
 document.getElementsByTagName("body")[0].appendChild(s);
 
 $(document).ready(function(){
-
+ 
 alert("jquery ready");
 })
 
