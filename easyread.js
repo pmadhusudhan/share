@@ -1,4 +1,4 @@
-var s = document.createElement("script");
+/*var s = document.createElement("script");
 s.src = "https://code.jquery.com/jquery-3.7.1.min.js";
 document.getElementsByTagName("body")[0].appendChild(s);
 
@@ -6,7 +6,7 @@ $(document).ready(function(){
  
 alert("jquery ready");
 })
-
+*/
 s = document.createElement("script");
 s.src = "https://pmadhusudhan.github.io/interview/Readability.js";
 document.getElementsByTagName("body")[0].appendChild(s);
