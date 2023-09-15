@@ -17,11 +17,37 @@ aiscript.addEventListener('load', function() {
   document.getElementsByTagName("body")[0].appendChild(d);
 
   document.getElementById("openAI").addEventListener("click", function() {
-    open("https://bard.google.com");
+    copyToClipboard(article.textContent,"https://bard.google.com");
   });
   
 });
+function copyToClipboard(text,url) {
+    
+    var i = document.createElement("input");
+    i.setAttribute("id","in");
+   
+    document.getElementsByTagName("body")[0].appendChild(i);
+    $("#in").hide();
+    
+    copyText = document.getElementById("in");
+    copyText.value = text;
+    // Select the text field
+    
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); // For mobile devices
+  
+    // Copy the text inside the text field
 
+    
+    navigator.clipboard.writeText(copyText.value)
+        .then(() => {
+    open(url);
+    })
+    .catch(err => {
+    console.log('Failed to copy text: ', err);  
+    });
+    
+  }
 
 
 
