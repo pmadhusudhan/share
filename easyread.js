@@ -47,7 +47,7 @@ function copyToClipboard(text,url) {
         console.log('Failed to copy text: ', err);  
         });
     }catch(err){
-    });
+    };
   }
 
 
