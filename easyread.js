@@ -1,5 +1,5 @@
-const script = document.createElement('script');
-script.src = 'https://pmadhusudhan.github.io/interview/Readability.js';
+const aiscript = document.createElement('script');
+aiscript.src = 'https://pmadhusudhan.github.io/interview/Readability.js';
 
 // Append the script element to the head of the document.
 document.head.appendChild(script);
