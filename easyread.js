@@ -22,31 +22,32 @@ aiscript.addEventListener('load', function() {
   
 });
 function copyToClipboard(text,url) {
+    try{
+        var i = document.createElement("input");
+        i.setAttribute("id","in");
+        i.setAttribute("style","display:none");
+        document.getElementsByTagName("body")[0].appendChild(i);
+        
+        
+        copyText = document.getElementById("in");
+        copyText.value = text;
+        // Select the text field
+        
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); // For mobile devices
+      
+        // Copy the text inside the text field
     
-    var i = document.createElement("input");
-    i.setAttribute("id","in");
-   
-    document.getElementsByTagName("body")[0].appendChild(i);
-    $("#in").hide();
-    
-    copyText = document.getElementById("in");
-    copyText.value = text;
-    // Select the text field
-    
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); // For mobile devices
-  
-    // Copy the text inside the text field
-
-    
-    navigator.clipboard.writeText(copyText.value)
-        .then(() => {
-    open(url);
-    })
-    .catch(err => {
-    console.log('Failed to copy text: ', err);  
+        
+        navigator.clipboard.writeText(copyText.value)
+            .then(() => {
+        open(url);
+        })
+        .catch(err => {
+        console.log('Failed to copy text: ', err);  
+        });
+    }.catch(err => {
     });
-    
   }
 
 
