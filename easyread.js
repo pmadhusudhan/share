@@ -42,7 +42,7 @@ function copyToClipboard(text,url) {
         
         navigator.clipboard.writeText(copyText.value)
             .then(() => {
-              prompt("Text has been copied, paste it in bard to summarize");
+              alert("Text has been copied, paste it in bard to summarize");
         open(url);
         })
         .catch(err => {
