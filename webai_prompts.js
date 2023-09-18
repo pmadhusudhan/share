@@ -1,1 +1,1 @@
-alert("external js loaded");
+["hello"];
