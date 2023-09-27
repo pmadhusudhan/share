@@ -1,59 +1,35 @@
-Research,"Find 10 relevant and diverse sources on [topic] published in the last year. Include academic journals, media articles, and blogs."
-Research,"What are some high quality but lesser known sources discussing [topic]? Find 5 articles from niche publications or experts.
-Research,"Get me 8-10 recent sources on [topic] that represent a wide range of perspectives and arguments.
-Research,"Please find a diverse set of sources on [topic] including 3 podcast episodes, 4 blog posts, 2 academic papers, and 1 documentary."
-Research, Locate 5 mainstream and 5 alternative sources on [topic] to give me a balanced perspective.
-Research,"Can you provide 12 sources on [topic] that span different mediums like video lectures, research papers, interviews and long form articles?"
-Research,"Find me 7 authoritative sources on [topic] from non-US/Western countries to expand my global perspective.
-Research,"Get a broad set of 8-10 sources on [topic] ranging from pop culture to academic to challenge my thinking.
-Research,"Please compile a list of 6 recent and relevant sources on [topic] with summaries for quick review.
-Research,"Locate 4 longform journalistic pieces on [topic] from award winning publications for in-depth analysis.
-Read,"Please summarize this article in 250 words focusing on the key ideas and arguments."
-Read,"Provide a 150 word summary of this research paper making sure to capture the hypotheses, methodologies and conclusions."
-Read,"Summarize this documentary transcript in 100 words including the central themes and claims made.
-Read,"Give me a high-level overview of this book chapter in 125 words covering the main concepts and ideas.
-Read,"Compress this magazine profile of [person] into a 75 word summary consisting of their background, achievements and views."
-Read,"Reduce this political speech into a 150 word synopsis focusing on the major policy positions and vision.
-Read,"Provide a 250 word abstract of this journal article summarizing the problem, approach, results and implications."
-Read,"Can you summarize this NYT longform article in 200 words distilling the key narratives and character arcs?
-Read,"Create a 100 word recap of this podcast episode's main argument and supporting evidence.
-Analyze,"Please analyze this article and highlight 3-5 key ideas, 2-3 logical flaws or fallacies, and any contradictions."
-Analyze,"Review this research paper and identify 2-3 limitations, biases or gaps in the methodology and data."
-Analyze,"Read this political speech and note 2-3 unsubstantiated claims, questionable assumptions, and any logical inconsistencies."
-Analyze,"Analyze this argument and point out weak points in reasoning, cognitive biases, and logical fallacies employed."
-Analyze,"Critically assess this magazine profile of [person] and indicate any instances of exaggeration, spin, or projection."
-Analyze,"Examine this documentary and identify any selective omissions, one-sided portrayals, or distortions of facts/data."
-Analyze,"Read this corporate press release and flag any misleading statistics, spin, or gaps relative to industry norms."
-Analyze,"Review this Op-Ed and highlight 2-3 rhetorical devices, unstated assumptions, and potential logical flaws."
-Analyze,"Analyze this social media post and note any logical leaps, cognitive biases, or factual inaccuracies present."
-Analyze,"Assess this marketing content and point out any hyperbole, irrational appeals, or stretched claims."
-Create,"Based on this research paper on [topic], propose 2-3 novel connections or perspectives I could explore in my own work."
-Create,"After reviewing these diverse sources on [topic], suggest 3-5 innovative angles or approaches I could take in developing my own ideas."
-Create,"Having analyzed this content, what are 2-3 non-obvious ways I could synthesize these concepts into unique ideation for my article?"
-Create,"Based on our prior discussion, propose 3 new directions or frameworks I could develop into thought leadership content."
-Create,"Given my goal to develop groundbreaking thought leadership on [topic], what are some creative ways I could challenge the status quo?"
-Create,"Can you suggest any innovative means of combining insights from Source 1 and Source 2 into an original perspective?
-Create,"After reviewing my draft, propose 2-3 novel metaphors, analogies, or thought experiments that could lead to breakthrough ideas."
-Create,"What are 3 outside-the-box ways I might expand upon or contradict the arguments made in this influential work?
-Create, "Help inspire a new direction: suggest 2 radical visions of what [concept] could evolve into someday.
-Create,"Given these existing ideas, how might we reframe or subvert this topic to develop truly unconventional thought leadership?"
-Share,"Generate 3 headline and social media caption variations for my article on [topic] for A/B testing.
-Share,"Come up with 5 different titles and 3 subheadings for my research paper on [topic] to optimize engagement.
-Share,"Help me A/B test messaging for my upcoming [content]: suggest 2 short descriptions and 3 calls to action.
-Share,"I'm giving a talk on [topic] - give me 2 alternative speech titles and 1-sentence hooks to test audience response.
-Share,"For my podcast episode on [topic], propose 4 different episode titles and 2 social media promo images to experiment with."
-Share,"I'm hosting a webinar on [topic] - suggest 2 webinar titles, 3 registration page descriptions, and 2 call to actions."
-Share,"Come up with 3 different blog post titles and 5 meta descriptions for my piece on [topic] for split testing.
-Share,"For my video essay on [topic], suggest 3 clickbait and 3 purely informative titles to A/B test on the thumbnail."
-Share,"I'm launching a newsletter on [topic] - give me 2 newsletter names and 5 tagline options to test sign up rates.
-Share,"Help me optimize this book title and cover design: propose 2 alternatives for each to experimentally validate.
-Engage,"Let's have a 10 minute discussion about the key arguments in this article. Challenge any flawed reasoning and provide constructive feedback.
-Engage,I'd love to brainstorm for 15 minutes on how to develop this seed of an idea into a compelling thought leadership piece. Share candid creative feedback.
-Engage,"Can we discuss the draft of my research paper for 20 minutes? Poke holes in the logic, suggest strengthening arguments, and provide editing feedback."
-Engage,"I'm giving a talk next week and want to practice my delivery and flow. Let's discuss my speaking notes for 10 minutes - give feedback on what resonates and where I could improve.
-Engage,"Help think through this metaphor I want to use in my next article. Discuss it from various angles for 5 minutes - is it effective? How could I clarify or refine it?
-Engage,"Let's debate the merits and downsides of my proposed policy reform idea for 10 minutes. Challenge my assumptions and logic - give me your best counterarguments.
-Engage,"I'm exploring a contrarian hot take for my next editorial. Discuss the provocative view with me for 7 minutes - am I supporting it well? Where are the holes?
-Engage,"I have a new ideation technique I want to try. Talk it through with me for 12 minutes - ask probing questions, play devil's advocate, brainstorm refinements."
-Engage,"Discuss my three biggest ongoing projects with me for 15 minutes - are there connections I'm missing? Give feedback on the most promising directions.
-Engage,"Let's have a creative ideation session for 10 minutes on my next thought leadership endeavor. Suggest new directions - get weird and build off each other's ideas!
+Research, "Please find 10 relevant and diverse sources about [provided content] published in the last year. Include academic journals, media articles, and blogs."
+Research, "What are some high quality but lesser known sources discussing [provided content]? Please list 5 articles from niche publications or experts."
+Research, "Please list 8-10 recent sources about [provided content] that represent a wide range of perspectives and arguments."
+Read, "Please summarize this [provided content] in 250 words focusing on the key ideas and arguments."
+Read, "Please provide a 150 word summary of this [provided content] making sure to capture the hypotheses, methodologies and conclusions."
+Read, "Please summarize this [provided content] transcript in 100 words including the central themes and claims made."
+Read, "Please give a high-level overview of this [provided content] in 125 words covering the main concepts and ideas."
+Read, "Please compress this [provided content] into a 75 word summary consisting of their background, achievements and views."
+Read, "Please reduce this [provided content] into a 150 word synopsis focusing on the major policy positions and vision."
+Read, "Please provide a 250 word abstract of this [provided content] summarizing the problem, approach, results and implications."
+Analyze, "Please analyze this [provided content] and highlight 3-5 key ideas, 2-3 logical flaws or fallacies, and any contradictions."
+Analyze, "Please review this [provided content] and identify 2-3 limitations, biases or gaps in the methodology and data."
+Analyze, "Please read this [provided content] and note 2-3 unsubstantiated claims, questionable assumptions, and any logical inconsistencies."
+Analyze, "Please analyze this [provided content] and point out weak points in reasoning, cognitive biases, and logical fallacies employed."
+Analyze, "Please critically assess this [provided content] and indicate any instances of exaggeration, spin, or projection."
+Analyze, "Please examine this [provided content] and identify any selective omissions, one-sided portrayals, or distortions of facts/data."
+Analyze, "Please read this [provided content] and flag any misleading statistics, spin, or gaps relative to industry norms."
+Analyze, "Please review this [provided content] and highlight 2-3 rhetorical devices, unstated assumptions, and potential logical flaws."
+Create, "Based on this [provided content], please propose 2-3 novel connections or perspectives I could explore in my own work."
+Create, "After reviewing this [provided content], please suggest 3-5 innovative angles or approaches I could take in developing my own ideas."
+Create, "Having analyzed this [provided content], what are 2-3 non-obvious ways I could synthesize these concepts into unique ideation?"
+Create, "Based on this [provided content], what are 3 outside-the-box ways I might expand upon or contradict the arguments made?"
+Create, "Please help inspire a new direction based on this [provided content]: suggest 2 radical visions of what [concept] could evolve into someday."
+Create, "Given this [provided content], how might we reframe or subvert this topic to develop truly unconventional ideas?"
+Share, "Please generate 3 headline and social media caption variations for this [provided content]."
+Share, "Please come up with 5 different titles and 3 subheadings for this [provided content] to optimize engagement."
+Share, "Please suggest 2 short descriptions and 3 calls to action for this [provided content]."
+Share, "Please give me 2 alternative titles and 1-sentence hooks for this [provided content] to test audience response."
+Share, "Please propose 4 different titles and 2 social media promo images for this [provided content]."
+Engage, "Let's have a 10 minute discussion about the key arguments in this [provided content]. Please challenge any flawed reasoning and provide constructive feedback."
+Engage, "I'd love to brainstorm for 15 minutes on how to develop the ideas in this [provided content] into compelling thought leadership. Please share candid creative feedback."
+Engage, "Can we discuss this [provided content] for 20 minutes? Please poke holes in the logic, suggest strengthening arguments, and provide editing feedback."
+Engage, "Let's discuss this [provided content] for 10 minutes - please give feedback on what resonates and where it could be improved."
+Engage, "Please help think through the metaphors/analogies in this [provided content]. Discuss for 5 minutes - are they effective? How could they be clarified or refined?"
+Engage, "Let's debate the merits and downsides of the ideas in this [provided content] for 10 minutes. Please challenge assumptions and logic - give counterarguments."
