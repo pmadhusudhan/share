@@ -1,0 +1,43 @@
+.update-components-actor{
+    background:#eee;
+    filter:grayscale(100%);
+}
+.feed-shared-update-v2__content,
+article,
+.update-components-image,
+.document-s-container,
+.update-components-document__container,
+.update-components-linkedin-video,
+.feed-shared-carousel{
+    filter:grayscale(100%);
+    height:150px;
+    overflow: clip;
+    padding-top:0px !important;
+}
+.feed-shared-update-v2__content:hover,
+article:hover,
+.update-components-image:hover,
+.document-s-container:hover,
+.update-components-document__container:hover,
+.update-components-linkedin-video:hover,
+.feed-shared-carousel:hover{
+    filter:grayscale(0%);
+    overflow:auto;
+}
+
+.feed-shared-update-v2__description-wrapper::first-line,.entity-result__content-summary::first-line,.entity-result__summary::first-line{
+    font-size: 24px;
+    line-height: 34px !important;
+    font-weight:bold
+}
+.scaffold-layout__aside,.scaffold-layout__sidebar{
+    filter:grayscale(1);
+    opacity:0.2;
+}
+.scaffold-layout__aside:hover,.scaffold-layout__sidebar:hover{
+    filter:grayscale(0);
+    opacity:1;
+}
+.artdeco-card{
+    box-shadow: -5px -5px gray !important;
+}
