@@ -38,6 +38,3 @@ article:hover,
     filter:grayscale(0);
     opacity:1;
 }
-.artdeco-card{
-    box-shadow: -5px -5px gray !important;
-}
