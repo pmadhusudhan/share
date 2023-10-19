@@ -1,10 +1,16 @@
-<div> <div class="text_block"><h2>Decide on a Topic</h2></div> <div> <textarea class="prompt_block" contenteditable="true">Give me 5 interesting topics to write about related to: climate change</textarea>
-<button class='promptNext' id="getTopics">></button>
+<div> <div class="text_block"><h2>Decide on a General Topic</h2></div> <div> <textarea class="prompt_block" contenteditable="true">Give me 10 interesting general topics to write about for a research paper.</textarea>
+<button class='promptNext' id="getGenTopics">></button>
 
-<div class="response_block"></div> </div> <div class="text_block"><h2>Narrow Down the Topic</h2></div> <div> <textarea class="prompt_block" contenteditable="true">Here are the topic ideas: [INSERT TOPICS]. Help me narrow down to one good topic for a research paper.</textarea>
+<div class="response_block"></div> </div> <div class="text_block"><h2>Narrow Down the Topic</h2></div> <div> <textarea class="prompt_block" contenteditable="true">Here are the general topic ideas: [INSERT TOPICS]. Help me narrow down to 3 more specific subtopics that would work well for a focused research paper.</textarea>
 <button class='promptNext' id="narrowDown">></button>
 
-<div class="response_block"></div> </div> <div class="text_block"><h2>Find Sources</h2></div> <div> <textarea class="prompt_block" contenteditable="true">Please suggest 5 high quality sources related to [INSERT TOPIC]. Include the title, author, and a 2-3 sentence summary for each.</textarea>
+<div class="response_block"></div> </div> <div class="text_block"><h2>Choose a Specific Topic</h2></div> <div> <textarea class="prompt_block" contenteditable="true">Here are the 3 subtopic ideas: [INSERT SUBTOPICS]. Which one do you think is the most interesting, relevant, and researchable? Please explain your choice.</textarea>
+<button class='promptNext' id="chooseTopic">></button>
+
+<div class="response_block"></div> </div> <div class="text_block"><h2>Brainstorm Keywords</h2></div> <div> <textarea class="prompt_block" contenteditable="true">For the research topic [INSERT TOPIC], suggest 8-10 keywords and phrases that would be useful for searching databases and finding good sources.</textarea>
+<button class='promptNext' id="keywords">></button>
+
+<div class="response_block"></div> </div> <div class="text_block"><h2>Find Sources</h2></div> <div> <textarea class="prompt_block" contenteditable="true">Please suggest 8-10 high quality sources related to [INSERT TOPIC] using the keywords: [INSERT KEYWORDS]. Include the title, author, date, and a 2-3 sentence summary for each source.</textarea>
 <button class='promptNext' id="getSources">></button>
 
 <div class="response_block"></div> </div> </div>
